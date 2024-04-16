@@ -1,0 +1,70 @@
+/* Variables */
+:root {
+    /* Colors */
+    --black: #101b08;
+    --green00: #E1F0DA;
+    --ocher00: #ffd687;
+    --ocher03: #f7da8e;
+    --ocher01: #dd9f54;
+    --red: #f7b88f;
+    --blue: #83bffb;
+    --white: #ffdc83;
+    --grey: #EEEEEE;
+    --green01: #D4E7C5;
+    --green02: #BFD8AF;
+    --green03: #99BC85;
+    --ocher02: #b3d5df;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: var(--black);
+    background-color: var(--green00);
+}
+
+h1 {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    margin-left: 35px;
+}
+
+h2, h3, h4, h5 {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 0.8em;
+  }
+
+.nav-bar {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 18px;
+}
+
+.current-nav {
+    color: var(--ocher01)
+  } 

@@ -1,0 +1,23 @@
+main {
+  margin-bottom: 100px;
+}
+footer {  
+  
+  background-color: var(--green02);
+  margin-top: auto;
+  padding: 20px 0px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-contact {
+  text-align: center;
+}
+
+
+.snail02 {
+  width: 100px;
+  position: relative;
+  bottom: 10px;
+}
