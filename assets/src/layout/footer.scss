@@ -1,11 +1,12 @@
+@use "../variables/breakpoints.scss" as breakpoints;
+
 main {
   margin-bottom: 100px;
 }
 footer {  
-  
   background-color: var(--green02);
   margin-top: auto;
-  padding: 20px 0px;
+  padding: 1rem;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   display: flex;
@@ -20,4 +21,22 @@ footer {
   width: 100px;
   position: relative;
   bottom: 10px;
+}
+
+
+@media (max-width: breakpoints.$breakpoint__tablet) {
+  footer {  
+    flex-direction: column-reverse;
+  }
+  .footer-navbar {
+    ul {
+      padding-top: 1rem;
+      justify-content: center;
+      display: flex;
+      column-gap: 1rem;
+    }
+  }
+  .snail02 {
+    display: none;
+  }
 }

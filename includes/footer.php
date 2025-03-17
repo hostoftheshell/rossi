@@ -1,3 +1,4 @@
+</main>
 <footer>
     <section class="footer-navbar">
         <ul>
@@ -14,3 +15,8 @@
     </section>
    <a href="#top"><img class="snail02" src="./assets/dist/images/2027466.svg" alt=""></a> 
 </footer>
+<script src="./assets/dist/js/menu.js"></script>
+</div>
+</body>
+
+</html>
